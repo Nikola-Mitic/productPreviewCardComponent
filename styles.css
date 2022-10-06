@@ -1,0 +1,92 @@
+body {
+    background-color:hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 150px;
+}
+
+.wrapper {
+    background-color: #fafaf5;
+    margin:auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+}
+
+img {
+    float: left;
+    height: 600px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-right: 40px;
+}
+
+.text {
+    float: right;
+}
+
+header {
+    font-weight: 50;
+    letter-spacing: 8px;
+    position: relative;
+    top: 30px;
+    color: darkgray;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 60px;
+    padding-right: 100px;
+}
+
+p {
+    font-size: 14px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+.sale {
+    font-family: 'Fraunces', serif;
+    color:#1f772e;
+    float: left;
+    padding-right: 50px;
+    font-size: 35px;
+}
+
+.price {
+    color: darkgray;
+    text-decoration: line-through;
+    padding-top: 15px;
+}
+
+button {
+    background-color: #1f772e;
+    color: #FFF;
+    position: relative;
+    bottom: 0;
+    padding: 20px 140px;
+    border-radius: 10px;
+    border: 0;
+    font-weight: 600;
+    font-size: 15px;
+    word-spacing: 5px;
+    white-space: nowrap;
+    margin: 40px;
+    margin-right: 60px;
+}
+
+button:hover {
+    background-color: #134e1d;
+    transition-duration: 0.4s;
+}
+
+button:active {
+    background-color: #19852b;
+    transition-duration: 0s;
+}
